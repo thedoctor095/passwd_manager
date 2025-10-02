@@ -1,0 +1,12 @@
+{
+  "db_name": "MySQL",
+  "query": "\n        INSERT INTO vault (uuid, domain, email, passwd, username, comment)\n        VALUES( ?, ?, ?, ?, ?, ?)\n        ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 6
+    },
+    "nullable": []
+  },
+  "hash": "fd86fbfa34edd945f7c8059792ff188d8fa9c432be2503b43cc525d5225b62e7"
+}

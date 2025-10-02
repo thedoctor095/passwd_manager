@@ -1,0 +1,12 @@
+{
+  "db_name": "MySQL",
+  "query": "\n        DELETE FROM vault\n        WHERE id=(?) AND uuid=(?)\n        ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 2
+    },
+    "nullable": []
+  },
+  "hash": "24ab6af098211128589de67400737a2e53f0195754cfdbbae242574c64e2028c"
+}
