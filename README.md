@@ -21,7 +21,7 @@
 
 The `docker-compose.yml` file together with `.env` file serve as a ready-to-use example. However, in order to use the API with a logged user (JWT-based session), an initial user has to be created manually in MySQL. This situation is by design to allow only already registered users to register other users.
 
-**Project tree & stats**
+**Project structure & stats**
 ```
 ========================================================================================================================================
  Language                                                                     Files        Lines         Code     Comments       Blanks
