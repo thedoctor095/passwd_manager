@@ -18,3 +18,5 @@
   - /vault/create - create vault entry tied to the User ID inferred from JWT
   - /vault/get - returns a list with all credentials bound to the current User ID
   - /vault/delete/{entry_id} - deletes the vault record that matches {entry_id}
+
+The `docker-compose.yml` file together with `.env` file serve as a ready-to-use example. However, in order to use the API with a logged user (JWT-based session), an initial user has to be created manually in MySQL. This situation is by design to allow only already registered users to register other users.
